@@ -17,8 +17,8 @@ import {
   ParsedTransaction,
   ParsedInnerInstruction,
   Transaction,
-} from "@solana/web3.js";
-import { PublicKey } from "@solana/web3.js";
+} from "@safecoin/web3.js";
+import { PublicKey } from "@safecoin/web3.js";
 import { lamportsToSafeString } from "utils";
 import { UnknownDetailsCard } from "components/instruction/UnknownDetailsCard";
 import { SystemDetailsCard } from "components/instruction/system/SystemDetailsCard";

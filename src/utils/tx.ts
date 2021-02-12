@@ -14,7 +14,7 @@ import {
   Transaction,
   PartiallyDecodedInstruction,
   ParsedInstruction,
-} from "@solana/web3.js";
+} from "@safecoin/web3.js";
 import { TokenRegistry } from "tokenRegistry";
 import { Cluster } from "providers/cluster";
 import { SerumMarketRegistry } from "serumMarketRegistry";

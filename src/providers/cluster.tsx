@@ -1,5 +1,5 @@
 import React from "react";
-import { clusterApiUrl, Connection } from "@solana/web3.js";
+import { clusterApiUrl, Connection } from "@safecoin/web3.js";
 import { useQuery } from "../utils/url";
 import { useHistory, useLocation } from "react-router-dom";
 import { reportError } from "utils/sentry";
@@ -50,7 +50,7 @@ export function clusterName(cluster: Cluster): string {
   }
 }
 
-export const MAINNET_BETA_URL = "http://161.97.156.164:8328";                         //clusterApiUrl("mainnet-beta");
+export const MAINNET_BETA_URL = "http://api.mainnet-beta.safecoin.org:8328";                         //clusterApiUrl("mainnet-beta");
 export const TESTNET_URL = clusterApiUrl("testnet");
 export const DEVNET_URL = clusterApiUrl("devnet");
 
