@@ -50,7 +50,7 @@ export function clusterName(cluster: Cluster): string {
   }
 }
 
-export const MAINNET_BETA_URL = "http://api.mainnet-beta.safecoin.org:8328";                         //clusterApiUrl("mainnet-beta");
+export const MAINNET_BETA_URL = clusterApiUrl("mainnet-beta");
 export const TESTNET_URL = clusterApiUrl("testnet");
 export const DEVNET_URL = clusterApiUrl("devnet");
 
