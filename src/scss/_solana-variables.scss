@@ -5,98 +5,28 @@
 
 // Example of a variable override to change Dashkit's background color
 // Remove the "//" to comment it in and see it in action!
-$body-bg: #f9fdfc !default;
+$body-bg: #161b19 !default;
 
-// Dashkit scss needs to know where img masks are stored
-$path-to-img: "../../img/dashkit" !default;
-$path-to-fonts: "../../fonts" !default;
-
-// Colors
-
-$white: #ffffff !default;
-$gray-100: #f9fdfc;
-$gray-200: #f1f8f6;
-$gray-300: #e5ebe9;
-$gray-400: #c6e6de;
-$gray-500: #abd5c6;
-$gray-600: #86b8b6;
-$gray-700: #00698c;
-$gray-800: #387462;
-$gray-900: #f9fdfc;
 $black: #232323;
+$white: #eee !default;
+$gray-600: #86b8b6;
+$gray-600-dark: #343a37 !default;
+$gray-700-dark: #282d2b !default;
+$gray-800-dark: #1e2423 !default;
+$black-dark: #141816 !default;
 
-$rainbow-1: #fa62fc;
-$rainbow-2: #be84e8;
-$rainbow-3: #79abd2;
-$rainbow-4: #38d0bd;
-$rainbow-5: #00698c;
+$primary: #00698c !default;
+$success: #26e97e !default;
+$warning: #fa62fc !default;
+$card-border-color: $gray-700-dark !default;
+$card-outline-color: $black-dark !default;
 
-$primary: #42ba96 !default;
-$primary-dark: #00698c !default;
-$success: #19be56 !default;
-$secondary: $gray-700;
-$danger: #b45be1;
-$warning: #d83aeb !default;
-$info: #43b5c5 !default;
-$light: $gray-100;
-$dark: $gray-900;
+$input-bg: transparent !default;
+$input-border-color: $gray-600-dark !default;
+$input-group-addon-color: $white !default;
 
 $theme-colors: (
   "black": $black,
-  "gray": $gray-900,
-) !default;
-
-$card-border-color: $gray-300 !default;
-$input-group-addon-color: $gray-900 !default;
-$navbar-light-active-color: $primary-dark;
-$link-color: $primary-dark;
-
-// Global
-
-$font-family-base: "Rubik";
-.display-2 {
-  font-family: Saira, Helvetica, sans-serif;
-}
-
-.text-rainbow {
-  background: linear-gradient(0.3turn, #e400ff, #00ffbd);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.bg-rainbow {
-  background: linear-gradient(0.3turn, #e400ff, #00ffbd);
-}
-
-.bg-rainbow-1 {
-  background: #fa62fc;
-}
-.bg-rainbow-2 {
-  background: #be84e8;
-}
-.bg-rainbow-3 {
-  background: #79abd2;
-}
-.bg-rainbow-4 {
-  background: #38d0bd;
-}
-.bg-rainbow-5 {
-  background: #00698c;
-}
-
-.text-rainbow-1 {
-  color: #fa62fc;
-}
-.text-rainbow-2 {
-  color: #be84e8;
-}
-.text-rainbow-3 {
-  color: #79abd2;
-}
-.text-rainbow-4 {
-  color: #38d0bd;
-}
-.text-rainbow-5 {
-  color: #00698c;
-}
+  "gray": $gray-600,
+  "gray-dark": $gray-800-dark,
+);
